@@ -27,4 +27,4 @@ run_server: $(SERVER)
 run_client: $(CLIENT)
 	./client
 
-.PHONY: all clean re test run_client run_server
+.PHONY: all clean re test run_client run_server $(SERVER) $(CLIENT)
